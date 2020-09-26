@@ -1,0 +1,18 @@
+﻿<environment names="Development">
+    <link href="~/css/site1.css" rel="stylesheet" asp-append-version="true"/>
+    <link href="~/css/site2.css" rel="stylesheet" asp-append-version="true"/>
+</environment>
+<environment names="Staging,Production">
+    <link href="~/css/bundle.min.css" asp-append-version="true" rel="stylesheet" />
+</environment>
+
+
+<div>Hello</div>
+
+<environment names="Development">
+    <script src="~/js/app1.js" asp-append-version="true"></script>
+    <script src="~/js/app2.js" asp-append-version="true"></script>
+</environment>
+<environment names="Staging,Production">
+    <script src="~/js/bundle.min.js" asp-append-version="true"></script>
+</environment>
